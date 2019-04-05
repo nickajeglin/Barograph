@@ -434,7 +434,7 @@ void setup() {
   pinMode(buttonPin, INPUT_PULLUP);
   analogWrite(blPin, 255);
 
-  pinMode(blPin, OUTPUT);
+  pinMode(ledPin, OUTPUT);
 
   //set up unit change button
   pinMode(unitPin, INPUT_PULLUP);
